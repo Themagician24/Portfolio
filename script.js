@@ -30,3 +30,8 @@ document.querySelector('.fas.fa-times').addEventListener('click', function () {
     // Au clic, supprime la classe 'show' de l'élément 'nav ul' pour masquer le menu
     document.querySelector('nav ul').classList.remove('show');
 });
+let strong = document.querySelector('strong');
+
+strong.style.color = 'gold';
+
+strong.style.fontStyle = 'italic';
